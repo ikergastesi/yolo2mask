@@ -36,7 +36,7 @@ yolov5
 ```
 
 - **Note**: 
-  - `expX` represents the experiment number (`exp1`, `exp2`, etc.).
+  - `expX` represents the experiment number (`exp`, `exp2`, etc.).
   - Each image (`img1.png`, `img2.png`, etc.) should have a corresponding label file (`img1.txt`, `img2.txt`, etc.) in the `labels` folder.
 
 ### 2. Run the Script
@@ -61,7 +61,7 @@ yolov5
 
 ## Example
 
-Suppose you have YOLOv5 segmentation results for `exp1`:
+Suppose you have YOLOv5 segmentation results for `exp`:
 
 ### Directory structure:
 
@@ -69,7 +69,7 @@ Suppose you have YOLOv5 segmentation results for `exp1`:
 yolov5
 ├── runs
 │   └── predict-seg
-│       └── exp1
+│       └── exp
 │           ├── labels
 │           │   ├── img1.txt
 │           │   ├── img2.txt
@@ -85,12 +85,12 @@ yolov5
 python generate_masks.py
 ```
 
-- Enter `exp1` when prompted.
+- Enter `exp` when prompted.
 
 - Masks will be generated and saved in:
   
   ```
-  yolov5/runs/predict-seg/exp1/masks/
+  yolov5/runs/predict-seg/exp/masks/
   ```
 
 ---
