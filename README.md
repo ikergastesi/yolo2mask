@@ -42,11 +42,11 @@ yolov5
 ### 2. Run the Script
 
 - Open a terminal or command prompt.
-- Navigate to the directory where the script (`generate_masks.py`) is saved.
+- Navigate to the directory where the script (`yolo2mask.py`) is saved.
 - Run the script and provide the experiment number (`expX`) when prompted:
 
   ```bash
-  python generate_masks.py
+  python yolo2mask.py
   ```
 
 - Enter the experiment number (`expX`) when prompted and press `Enter`.
